@@ -1,10 +1,12 @@
 .form__container {
   display: flex;
   justify-content: center;
+  align-self: center;
+  width: 75%;
 }
 
 form {
-  width: 75%;
+  width: 100%;
 }
 
 .form-group {
