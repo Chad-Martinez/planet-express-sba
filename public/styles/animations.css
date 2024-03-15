@@ -25,36 +25,42 @@
 .hypno-toad__container .hypno-toad-1 {
   transform: translate(-105px, -500px);
   animation: toad 1s ease-in-out forwards;
+  animation-iteration-count: 3;
 }
 
 .hypno-toad-1 img {
   height: 50px;
   transform: translate(10px, -50px);
   animation: toad 1s ease-in-out forwards;
+  animation-iteration-count: 3;
 }
 
 .hypno-toad__container .hypno-toad-2 {
   font-size: 2rem;
-  transform: translate(100px, -275px);
+  transform: translate(100px, -250px);
   animation: toad 500ms ease-in-out 1000ms forwards;
+  animation-iteration-count: 2;
 }
 
 .hypno-toad-2 img {
-  transform: translate(10px, 40px);
+  transform: translate(10px, -200px);
   height: 200px;
   animation: toad 500ms ease-in-out 1000ms forwards;
+  animation-iteration-count: 2;
 }
 
 .hypno-toad__container .hypno-toad-3 {
   font-size: 2rem;
-  transform: translate(-100px, -20px);
+  transform: translate(-100px, -75px);
   animation: toad 1500ms ease-in-out 100ms forwards;
+  animation-iteration-count: 3;
 }
 
 .hypno-toad-3 img {
   height: 100px;
-  transform: translate(-160px, 40px);
+  transform: translate(-160px, -100px);
   animation: toad 1500ms ease-in-out 100ms forwards;
+  animation-iteration-count: 3;
 }
 
 @keyframes toad {
