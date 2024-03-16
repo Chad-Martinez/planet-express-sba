@@ -105,6 +105,7 @@ a span {
   margin: 0px 10px;
 }
 
+/* Psuedo-class Selector */
 .social i:hover {
   color: var(--color-blue);
 }

@@ -49,6 +49,11 @@
   text-align: center;
 }
 
+/* Pseudo-element Selector */
+.footer__text span::first-letter {
+  font-size: 1.3rem;
+}
+
 .footer__text span:last-child {
   font-size: 0.6rem;
 }

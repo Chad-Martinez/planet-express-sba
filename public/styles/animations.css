@@ -1,4 +1,6 @@
-.ship__container img {
+/* ANIMATIONS */
+/* ID Selector */
+#ship img {
   position: fixed;
   transform: translate(-30px, 300px);
   height: 0px;
@@ -22,10 +24,12 @@
   }
 }
 
+/* Class Selector */
 .hypno-toad__container {
   height: 0.1px;
 }
 
+/* Combo Selector */
 .hypno-toad__container img {
   position: fixed;
 }
