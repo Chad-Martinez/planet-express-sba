@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 .title {
@@ -72,14 +72,15 @@ body {
   justify-content: space-around;
   align-items: flex-end;
   padding: 10px;
+  height: 100%;
 }
 
-.footer__container {
+/* .footer__container {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   width: 100%;
-}
+} */
 
 @media (min-width: 576px) {
   .title__text {
