@@ -7,11 +7,36 @@
   width: 320px;
 }
 
-.order-problem__container {
-  padding-top: 20px;
-}
-
 .order-problem__text {
   font-size: 1.3rem;
   text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .order-problem__img img {
+    width: 400px;
+  }
+
+  .order-problem__text {
+    font-size: 1.8rem;
+  }
+
+  .form__container {
+    max-width: 571px;
+  }
+}
+
+@media (min-width: 992px) {
+  .order-problem__img img {
+    width: 550px;
+  }
+
+  .order-problem__text {
+    font-size: 2.3rem;
+  }
+
+  .form__container {
+    max-width: 650px;
+  }
 }
