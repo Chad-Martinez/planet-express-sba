@@ -5,6 +5,7 @@
   background-color: var(--color-red);
   height: 75px;
   width: 100%;
+  max-width: 992px;
   text-transform: uppercase;
 }
 
